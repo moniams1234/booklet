@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1c2e">
+  <title>Monika Siurnicka-Ślusarczyk — Finance Director</title>
+  <meta name="description" content="Executive finance profile: strategic finance, performance, liquidity, risk and international manufacturing.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230b1c2e'/><text x='16' y='23' font-size='18' font-family='Georgia,serif' fill='%23c9a55c' text-anchor='middle'>M</text></svg>">
+  <link rel="stylesheet" href="style-v2.css">
+</head>
+<body>
+  <a class="skip" href="#main">Przejdź do treści</a>
+
+  <header class="topbar">
+    <a class="brand" href="#start" aria-label="Strona główna Moniki Siurnickiej-Ślusarczyk">MS</a>
+    <nav class="nav" aria-label="Nawigacja główna">
+      <a href="#profil" data-nav="profile">Profil</a>
+      <a href="#doswiadczenie" data-nav="experience">Doświadczenie</a>
+      <a href="#kwalifikacje" data-nav="qualifications">Kwalifikacje</a>
+      <a href="#kontakt" data-nav="contact">Kontakt</a>
+    </nav>
+    <button class="lang" id="lang-v2" type="button" aria-label="Change language">EN</button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="start" aria-labelledby="hero-name">
+      <div class="hero__copy">
+        <p class="eyebrow" id="hero-role"></p>
+        <h1 id="hero-name"></h1>
+        <p class="hero__lead" id="hero-lead"></p>
+        <div class="hero__actions">
+          <a class="button button--gold" href="#doswiadczenie" id="hero-primary">Zobacz doświadczenie</a>
+          <a class="button button--ghost" href="index.html" id="hero-booklet">Otwórz booklet</a>
+        </div>
+        <ul class="credentials" id="credentials" aria-label="Najważniejsze kwalifikacje"></ul>
+      </div>
+      <div class="portrait-wrap" aria-hidden="true">
+        <div class="portrait-frame"><img src="foto.jpg" alt="" width="560" height="700"></div>
+        <span class="portrait-note">Finance · Strategy · Leadership</span>
+      </div>
+    </section>
+
+    <section class="section section--paper" id="profil" aria-labelledby="profile-title">
+      <div class="section__intro">
+        <p class="eyebrow" id="profile-label"></p>
+        <h2 id="profile-title"></h2>
+      </div>
+      <div class="profile-grid">
+        <p class="profile-copy" id="profile-copy"></p>
+        <div class="stats" id="stats"></div>
+      </div>
+      <div class="expertise" id="expertise"></div>
+    </section>
+
+    <section class="section section--dark" id="podejscie" aria-labelledby="approach-title">
+      <p class="eyebrow" id="approach-label"></p>
+      <h2 id="approach-title"></h2>
+      <div class="quotes" id="quotes"></div>
+    </section>
+
+    <section class="section section--paper" id="doswiadczenie" aria-labelledby="experience-title">
+      <div class="section__intro">
+        <p class="eyebrow" id="experience-label"></p>
+        <h2 id="experience-title"></h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="section section--mist" id="kwalifikacje" aria-labelledby="qualifications-title">
+      <div class="section__intro">
+        <p class="eyebrow" id="qualifications-label"></p>
+        <h2 id="qualifications-title"></h2>
+      </div>
+      <div class="qualification-grid" id="qualification-grid"></div>
+    </section>
+
+    <section class="contact" id="kontakt" aria-labelledby="contact-title">
+      <p class="eyebrow" id="contact-label"></p>
+      <h2 id="contact-title"></h2>
+      <p id="contact-copy"></p>
+      <a class="button button--gold" id="linkedin" target="_blank" rel="noopener noreferrer"></a>
+      <p class="contact__location" id="location"></p>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Monika Siurnicka-Ślusarczyk</span><a href="#start" id="back-top">Do góry ↑</a></footer>
+
+  <script src="tresc.js"></script>
+  <script src="app-v2.js"></script>
+</body>
+</html>
