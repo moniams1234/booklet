@@ -664,6 +664,28 @@ body {
 
 .home-link:hover { background: var(--gold); color: var(--navy-900); }
 
+.tools-link {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  min-height: 38px;
+  padding: 8px 14px;
+  border: 1px solid rgba(201, 165, 92, .5);
+  background: rgba(6, 19, 33, .78);
+  color: var(--gold-soft);
+  font-size: 12px;
+  font-weight: 650;
+  text-decoration: none;
+  letter-spacing: .03em;
+  transition: background .2s, color .2s, transform .2s;
+}
+.tools-link svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.tools-link:hover { background: var(--gold); color: var(--navy-900); transform: translateY(-2px); }
+
 :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
 /* ============================ TELEFON ============================== */
@@ -710,6 +732,8 @@ body {
 
   .home-link span { display: none; }
   .home-link { width: 36px; padding: 7px; justify-content: center; }
+  .tools-link { left: 50%; transform: translateX(-50%); white-space: nowrap; }
+  .tools-link:hover { transform: translateX(-50%) translateY(-2px); }
 }
 
 @media (prefers-reduced-motion: reduce) {

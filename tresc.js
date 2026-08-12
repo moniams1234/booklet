@@ -83,6 +83,10 @@ const TRESC = {
             "Budżety i KPI",
             "CAPEX",
             "MSSF",
+            "Finanse korporacyjne",
+            "Raportowanie",
+            "Forecasty",
+            "Biznesplany",
           ],
         },
         {
@@ -140,9 +144,9 @@ const TRESC = {
 
     kontakt: {
       label: "Kontakt",
-      naglowek: "Porozmawiajmy",
+      naglowek: "Bądźmy w kontakcie",
       tekst: "Najszybciej złapiesz mnie wiadomością na LinkedIn.",
-      cta: "Napisz do mnie na LinkedIn",
+      cta: "Skontaktuj się ze mną na LinkedIn",
       miasto: "Gdańsk, Polska",
     },
   },
@@ -221,6 +225,10 @@ const TRESC = {
             "Budgets and KPIs",
             "CAPEX",
             "IFRS",
+            "Corporate finance",
+            "Reporting",
+            "Forecasting",
+            "Business plans",
           ],
         },
         {
@@ -278,9 +286,9 @@ const TRESC = {
 
     kontakt: {
       label: "Contact",
-      naglowek: "Let's talk",
+      naglowek: "Let's stay in touch",
       tekst: "A message on LinkedIn is the fastest way to reach me.",
-      cta: "Message me on LinkedIn",
+      cta: "Connect with me on LinkedIn",
       miasto: "Gdańsk, Poland",
     },
   },
